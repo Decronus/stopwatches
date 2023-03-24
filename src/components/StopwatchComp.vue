@@ -86,6 +86,7 @@ export default {
                     --this.seconds;
                 }
             }, 1000);
+
             this.stopped = false;
         },
 
