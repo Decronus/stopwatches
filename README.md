@@ -1,19 +1,7 @@
-# stopwatches
+# Тестовое задание для ООО «Студия Беляевых»
 
-## Project setup
-```
-npm install
-```
+## Как запустить проект
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Скопировать проект из репозитория с помощью команды git clone.
+2. Перейти в папку с проектом и установить все зависимости с помощью команды npm i.
+3. Запустить с помощью команды vue serve.
