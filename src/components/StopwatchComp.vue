@@ -85,6 +85,10 @@ export default {
                 } else {
                     --this.seconds;
                 }
+
+                if (+this.seconds === 0 && +this.minutes === 0 && +this.hours === 0) {
+                    this.stop();
+                }
             }, 1000);
 
             this.stopped = false;
